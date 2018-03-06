@@ -17,9 +17,41 @@
   gtag('config', 'UA-115180638-1');
 </script>
 
+<link href='https://fonts.googleapis.com/css?family=Molengo' rel='stylesheet'>
+<style>
+body {
+    font-family: 'Molengo';font-size: 22px;
+}
+</style>
+
+</head>
 <body>
   <div class="container">
-  <nav class="navbar navbar-inverse"> <div class="container-fluid"> <div class="navbar-header"> <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">Brand</a> </div> <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9"> <ul class="nav navbar-nav"> <li class="active"><a href="vr.html">Home</a></li> <li><a href="vr.html">About</a></li> <li><a href="vr.html">Contact Us</a></li> </ul> </div> </div> </nav>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand">Brand</a> </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
+          <ul class="nav navbar-nav"> <li class="active"><a href="vr.html">Home</a></li>
+            <li class="dropdown open">
+              <a href="vr.html" class="dropdown-toggle" id="drop1" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> About <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="vr..html">Who we are</a></li>
+                <li><a href="vr.html">Our vision</a></li>
+              </ul>
+            </li>
+             <li><a href="vr.html">Contact Us</a></li>
+           </ul>
+         </div>
+       </div>
+     </nav>
 </nav>
   <div class='container'>
     <div class='jumbotron'>
@@ -41,23 +73,13 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="vr-man.jpg" alt="This is an image of someone using VR">
-        <div class="carousel-caption">
-          ...
-        </div>
       </div>
       <div class="item">
         <img src="vr-person2.png" alt="This is another person using VR">
-        <div class="carousel-caption">
-          ...
-        </div>
       </div>
       <div class="item">
         <img src="vr-girl.jpg" alt="This is also a person using VR">
-        <div class="carousel-caption">
-          ...
-        </div>
       </div>
-      ...
     </div>
 
     <!-- Controls -->
@@ -89,7 +111,7 @@
       <blockquote>
       <p><h1>Exposure therapy</h1></p>
       <h2>Patients are exposed to grocery store scenarios. To recreate the guilt feelings associated with buying unhealthy foods.</h2>
-        <button class="btn btn-success" type="submit"><a href="about.html">More</a></button>
+        <button class"btn btn-prrimary btn-lg" type="submit"><a href="about.html">More</a></button>
     </blockquote>
 </div>
     </div>
@@ -98,14 +120,34 @@
       <img class="img-circle" src='vr-person3.jpg'>
       <p><h1>Self-help Guide</h1></p>
       <h2> The app enables patients to carry out exercises at any point during the day to compliment exercise and nutrition plans</h2>
-<button class="btn btn-success" type="submit">More</button>
+<button type ="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  More
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Thanks for clicking!</h4>
+      </div>
+      <div class="modal-body">
+        We'll be updating this section soon
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
     </div>
     <div>
       <img class="img-circle" src='person4.jpg'>
       <p><h1>Overcoming Body Dysmophia</h1></p>
       <h2>VR training helps to overcome negative feeling about body image.</h2>
-<button class="btn btn-success" type="submit">More</button>
+<button class="btn btn-primary btn-lg" type="submit">More</button>
     </div>
   </div>
 </div>
@@ -125,13 +167,9 @@
       </div>
 
   </div>
-
-<<<<<<< HEAD
 </div>
-=======
   <script src="myscript.js"></script>
   <input type="button" value="Hello" onclick="hello('stranger')">
->>>>>>> origin/master
 </body>
 
 

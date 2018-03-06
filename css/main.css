@@ -46,3 +46,7 @@
     color: white;
     font-size: 72px;
 }
+
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
