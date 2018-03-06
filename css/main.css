@@ -10,3 +10,15 @@
   background: #b62f26;
   border-color: #b62f26;
 }
+
+#social-buttons:visited {
+    color: green;
+}
+
+#social-buttons:hover {
+    color: pink;
+}
+
+#social-buttons:active {
+    color: white;
+}
