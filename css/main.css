@@ -23,6 +23,6 @@
     color: white;
 }
 
-#mission {
-    text: center;
+.container {
+  text-align: center;
 }
