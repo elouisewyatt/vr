@@ -10,3 +10,9 @@
   background: #b62f26;
   border-color: #b62f26;
 }
+#exposure {
+  background-image: url("https://www.newbestdeal.com/wp-content/uploads/2018/01/Google-Cardboard-VR-4.jpg");
+  background-position: center center;
+}
+
+#buzz img {width: 300px ; height: 200px}
