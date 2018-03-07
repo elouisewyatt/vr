@@ -50,3 +50,8 @@
 .carousel-control.right, .carousel-control.left {
   background-image:none;
 }
+
+.carousel-inner, .item > img{
+  margin:auto;
+  width:100%
+}
